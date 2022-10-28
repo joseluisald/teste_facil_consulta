@@ -1,0 +1,248 @@
+.incoming_msg_img
+{
+  display: inline-block;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.incoming_msg_img img
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.incoming_msg
+{
+  padding: 10px;
+}
+.received_msg
+{
+  display: inline-block;
+  vertical-align: top;
+  min-width: 50%;
+}
+
+.last-msg
+{
+  position: absolute;
+  top: -20%;
+  left: 24%;
+  color: #fff;
+}
+
+#chat_users .card .contact .wrap .meta .preview {
+    font-weight: 400;
+    -moz-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    -webkit-transition: 1s all ease;
+    transition: 1s all ease;
+    position: absolute;
+    margin: -20px 0 0 50px;
+}
+
+.lido
+{
+  color:#33FFE9; 
+  font-size: 12px;
+}
+
+.nlino
+{
+  color:#ccc; 
+  font-size: 12px;
+}
+
+.msg_ligo
+{
+  float: right;
+  text-align: right;
+}
+
+.notificationChat
+{
+  position: absolute !important; 
+  right: 8% !important; 
+  top: 20% !important;
+}
+
+.notificationChat .coutNotification
+{
+  position: absolute !important;
+  top: 5px !important; 
+  border: 1px solid #fff !important;
+  left: auto !important;
+  font-size: 9px !important;
+  background: #f44336 !important;
+  color: #fff !important;
+  min-width: 20px !important;
+  padding: 0 5px !important;
+  height: 20px !important;
+  border-radius: 10px !important;
+  text-align: center !important;
+  line-height: 19px !important;
+  vertical-align: middle !important;
+  display: block !important;
+  width: auto !important;
+}
+
+.received_withd_msg p
+{
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #000;
+  font-size: 16px;
+  margin: 0;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+.time_date
+{
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  float: left;
+  margin-right: 10px;
+}
+
+.received_withd_msg
+{ 
+  width: fit-content;
+}
+
+.sent_msg p
+{
+  background: #05728f none repeat scroll 0 0;
+  border-radius: 3px;
+  font-size: 16px;
+  margin: 0; color:#000;
+  padding: 5px 10px 5px 12px;
+  width:100%;
+}
+
+.outgoing_msg
+{ 
+  overflow:hidden; 
+}
+
+.sent_msg
+{
+  float: right;
+/*  width: 46%;
+  padding: 10px;*/
+}
+
+.contact-profile
+{
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #f5f5f5;
+}
+
+.contact-profile img
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  margin: 9px 12px 0 9px;
+}
+
+.contact-profile p
+{
+  float: left;
+}
+
+#chat_users .card .contact
+{
+  position: relative;
+  padding: 10px 0 15px 0;
+  font-size: 0.9em;
+  cursor: pointer;
+  list-style: none
+}
+
+#chat_users .card .contact .wrap
+{
+  width: 88%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#chat_users .card .contact .wrap span.online
+{
+  background: green;
+}
+
+#chat_users .card .contact .wrap span.offline
+{
+  background: #cccccc;
+}
+
+#chat_users .card .contact .wrap span
+{
+  position: absolute;
+  left: 0;
+  margin: -2px 0 0 -2px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #95a5a6;
+}
+
+#chat_users .card .contact .wrap img
+{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 10px;
+}
+
+#chat_users .card .contact .wrap .meta
+{
+  padding: 5px 0 0 0;
+}
+
+#chat_users .card .contact .wrap .meta .name
+{
+  font-weight: 600;
+}
+
+#chat_users .card
+{
+  height: calc(100% - 177px);
+  min-height: 200px;
+}
+
+#chat_users .card
+{
+  background: #2c3e50;
+  color: #f5f5f5;
+}
+
+#chat_users .card .contact:hover
+{
+  background: #32465a;
+  border-radius: 10px;
+}
+
+#chat_users .card .contact.active
+{
+  background: #32465a;
+  border-right: 5px solid #435f7a;
+}
+
+#chat_users .card .contact.active span.contact-status
+{
+  border: 2px solid #32465a !important;
+}
+
+#chat_users .card .contact .wrap
+{
+  width: 88%;
+  margin: 0 auto;
+  position: relative;
+}
